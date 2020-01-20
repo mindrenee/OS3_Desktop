@@ -1,0 +1,13 @@
+tasks:
+  - name: Install uBlock Origin addon in Firefox
+    firefox_addon:
+      url: https://addons.mozilla.org/en-US/firefox/addon/ublock-origin
+      state: present
+  - name: Install Bitwarden addon in Firefox
+    firefox_addon:
+      url: https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager
+      state: present
+  - name: Install HTTPS Everywhere addon in Firefox
+    firefox_addon:
+      url: https://addons.mozilla.org/en-US/firefox/addon/https-everywhere
+      state: present

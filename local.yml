@@ -1,0 +1,12 @@
+- hosts: localhost
+  become: true
+
+  roles:
+    - alzadude.firefox-addon
+
+  tasks:
+  - include: tasks/users.yml
+  - include: tasks/packages.yml
+  - include: tasks/cron.yml
+  - include: tasks/dock.yml
+  - include: tasks/config.yml

@@ -1,0 +1,7 @@
+- name: Install Terminator
+  apt:
+    name: terminator
+- name: Install Network Analyzing
+  apt:
+    name: wireshark
+

@@ -1,0 +1,5 @@
+- name: Set Icons/Applications
+  dconf:
+    key: /com/canonical/unity/launcher/favorites
+    value: "{{ launcher_favorites }}"
+    state: present
