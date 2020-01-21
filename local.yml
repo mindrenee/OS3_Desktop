@@ -3,6 +3,7 @@
 
   roles:
     - alzadude.firefox-addon
+    - gantsign.pin-to-launcher
 
   tasks:
   - include: tasks/users.yml
